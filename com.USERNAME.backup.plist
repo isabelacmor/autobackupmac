@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" \
+"http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<dict>
+        <key>Label</key>
+        <string>com.isabella.backup</string>
+        <key>LowPriorityIO</key>
+        <true/>
+        <key>Program</key>
+          <string>/Users/isabella/Desktop/backup.sh</string>
+        <key>ProgramArguments</key>
+        	<array>
+              	  <string>./backup.sh</string>
+			<string>/Users/isabella/Documents/FlashTransfer/</string>
+        	</array>
+        <key>WatchPaths</key>
+        	<array>
+        		<string>/Volumes</string>
+        	</array>
+</dict>
+</plist>
